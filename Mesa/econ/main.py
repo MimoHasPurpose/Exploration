@@ -4,12 +4,13 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import mesa
+import matplotlib.pyplot as plt
 
 #defining agent
 class MoneyAgent(mesa.Agent):
     def __init__(self,model):
         super().__init__(model)
-        self.wealth=1
+        self.wealth=4
     
     def exchange(self):
         if self.wealth>0:
@@ -36,18 +37,17 @@ class MoneyModel(mesa.Model):
 
 
 all_wealth = []
-# This runs the model 100 times, each model executing 10 steps.
+# This runs the model 1 times, each model executing 10 steps.
 for _ in range(10):
     # Run the model
     model = MoneyModel(10)
-    for _ in range(30):
+    for _ in range(10):
         model.step()
 
     # Store the results
     for agent in model.agents:
         all_wealth.append(agent.wealth)
 
-import matplotlib.pyplot as plt
 
 # Use seaborn
 g = sns.histplot(all_wealth, discrete=True)
