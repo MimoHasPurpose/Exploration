@@ -1,0 +1,19 @@
+- collection of mathematical algos built on numpy.
+- organized into sub-packages
+  - cluster
+  - constants
+  - differentiate
+  - fft
+  - fftpack
+  - integrate
+  - interpolate
+  - io
+  - linalg
+  - ndiamge
+  - odr
+  - optimize
+  - signal
+  - sparse
+  - spatial
+  - special
+  - stats
