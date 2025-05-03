@@ -13,3 +13,12 @@
     - multi-agent
 
 - what are tools?
+
+
+GAIA?
+- benchmark to evaluate ai assistants on real-world tasks.
+- capabilities:
+    - reasoning
+    - multimodal understanding
+    - web browsing
+    
