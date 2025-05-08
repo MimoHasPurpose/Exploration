@@ -1,7 +1,10 @@
-##### Libraries for robotics:
+### Libraries for robotics:
+most of these libraries are useless, ROS2 is way better then em all.
+- a info heavy book on robotics by MIT[ underactuated](https://underactuated.csail.mit.edu/index.html)
+#### robot framework
+- pyro: probabilistic programming langauge(programming+randomness)
+    - i think this library is very useful in ML, but its heavy with stats concepts.
 
-- robot framework
-- pyro
 - dart
 - Pyrobot
 - pydy : study of multibody dynamics.
@@ -42,3 +45,9 @@ Some types of libraries in Robotics:
 - robot modelling
 - robot platform, multiphysics
 
+##### Notes:
+- RMF: used in multi-vendor, multir-robot system. It works with ROS.
+- Behaviour trees: they are trees
+    - leaf node is executable
+    - internal node control tree traversal
+    - control nodes and execution nodes
