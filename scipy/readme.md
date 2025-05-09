@@ -22,3 +22,4 @@
 - [scipy docs](https://docs.scipy.org/doc/scipy-1.7.1/scipy-ref-1.7.1.pdf)
 - [scipy](https://scipy-lectures.org/_downloads/ScipyLectures-simple.pdf) **_important_**
 - [spatial data sctructures](https://docs.scipy.org/doc/scipy/tutorial/spatial.html)
+- [practical](https://lectures.scientific-python.org/)
