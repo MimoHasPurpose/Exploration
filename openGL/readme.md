@@ -1,16 +1,15 @@
-
-
 ##### Notes:
 
 - installed openGL via mysys
+- [learning](http://www.lighthouse3d.com/tutorials/glut-tutorial/)
 - [examples](https://cs.lmu.edu/~ray/notes/openglexamples/)
 
-
 ##### References:
+
 - https://www.labri.fr/perso/nrougier/python-opengl/#python-opengl-for-�cientific-visualization
 - https://pyopengl.sourceforge.net/context/tutorials/index.html
 - https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started
-- 
+-
 - https://www.opengl-tutorial.org/
 - https://learnopengl.com/
 - https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents
