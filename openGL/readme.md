@@ -1,8 +1,15 @@
+
 ##### Notes:
 
+- [learning](http://www.lighthouse3d.com/tutorials/glut-tutorial/):: its not that good, cause, the functions are of older glut ig
 - installed openGL via mysys
-- [learning](http://www.lighthouse3d.com/tutorials/glut-tutorial/)
 - [examples](https://cs.lmu.edu/~ray/notes/openglexamples/)
+- [api](https://www.opengl.org/resources/libraries/glut/spec3/spec3.html)
+
+GLUT:
+- Open GL utility toolkit
+
+
 
 ##### References:
 
