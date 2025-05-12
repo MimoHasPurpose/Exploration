@@ -40,16 +40,17 @@ while running:
     for i in range(1,49):
         pygame.draw.circle(screen,"blue",(x_list[i],y_list[i]),8) 
     for i in range(1,49):
-        pygame.draw.circle(screen,"white",(x_list[i],y_list[i]),4)     
+        pygame.draw.circle(screen,"white",(x_list[i],y_list[i]),4)  
+   
     for i in range(1,49):
-        if x_list[i]>500:
+        if x_list[i]>550:
             x_list[i]=0
-        if y_list[i]>500:
+        if y_list[i]>550:
             y_list[i]=0
         if x_list[i]<0:
-            x_list[i]=500
+            x_list[i]=550
         if y_list[i]<0:
-            y_list[i]=500
+            y_list[i]=550
         x_list[i]+=random.randint(-5,5)
         y_list[i]+=random.randint(-5,5)    
     pygame.display.flip()
