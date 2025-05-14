@@ -52,6 +52,7 @@ int main(int c, char *v[])
     glutCreateWindow("points");
     MyInit();
     glutDisplayFunc(Draw);
+    glutDisplayFunc(DrawRect);
     glutMainLoop();
     return 0;
 }
